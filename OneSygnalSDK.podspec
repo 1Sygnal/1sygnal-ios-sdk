@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version          = '0.1.0'
   s.summary          = '1Sygnal native iOS survey SDK.'
   s.homepage         = 'https://onesygnal.io'
-  s.license          = { :type => 'Proprietary' }
+  s.license          = { :type => 'MIT' }
   s.author           = { 'OneSygnal' => 'support@onesygnal.io' }
   s.source           = { :http => "https://repo.1sygnal.app/ios/#{s.version}/1Sygnal.zip" }
 
