@@ -17,8 +17,11 @@ Native iOS SDK for 1Sygnal in-product surveys.
 
 ### CocoaPods
 
+`OneSygnalSDK` isn't published to the CocoaPods Trunk — point your Podfile at this repo's
+podspec directly rather than using a bare version constraint:
+
 ```ruby
-pod 'OneSygnalSDK', '~> 1.0.1'
+pod 'OneSygnalSDK', :podspec => 'https://raw.githubusercontent.com/1Sygnal/1sygnal-ios-sdk/1.0.1/OneSygnalSDK.podspec'
 ```
 
 GRDB.swift is statically linked into the XCFramework — no separate dependency needed.
