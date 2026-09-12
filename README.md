@@ -12,7 +12,7 @@ Native iOS SDK for 1Sygnal in-product surveys.
 ### Swift Package Manager
 
 ```swift
-.package(url: "https://github.com/1Sygnal/1sygnal-ios-sdk.git", from: "1.0.1")
+.package(url: "https://github.com/1Sygnal/1sygnal-ios-sdk.git", from: "1.0.2")
 ```
 
 ### CocoaPods
@@ -21,7 +21,7 @@ Native iOS SDK for 1Sygnal in-product surveys.
 podspec directly rather than using a bare version constraint:
 
 ```ruby
-pod 'OneSygnalSDK', :podspec => 'https://raw.githubusercontent.com/1Sygnal/1sygnal-ios-sdk/1.0.1/OneSygnalSDK.podspec'
+pod 'OneSygnalSDK', :podspec => 'https://raw.githubusercontent.com/1Sygnal/1sygnal-ios-sdk/1.0.2/OneSygnalSDK.podspec'
 ```
 
 GRDB.swift is statically linked into the XCFramework — no separate dependency needed.
