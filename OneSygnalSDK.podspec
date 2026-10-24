@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'OneSygnalSDK'
-  s.version          = '1.0.4'
+  s.version          = '1.0.7'
   s.summary          = '1Sygnal native iOS survey SDK.'
   s.homepage         = 'https://1sygnal.app'
   s.license          = { :type => 'MIT' }
