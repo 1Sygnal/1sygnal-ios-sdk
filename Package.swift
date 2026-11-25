@@ -10,8 +10,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "OneSygnalSDK",
-            url: "https://repo.1sygnal.app/ios/1.0.9/1Sygnal.zip",
-            checksum: "753657ef9200ffb7649a1cd6b6d9aeabed2ec7e8445f4c828fe10dc57a561949"
+            url: "https://repo.1sygnal.app/ios/1.0.10/1Sygnal.zip",
+            checksum: "ff93df80132cc48396c38b4fcf6e67b936afd57ebebcd60a745de9b82c5e49ac"
         )
     ]
 )
